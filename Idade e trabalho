@@ -1,0 +1,22 @@
+somaIdades = 0
+cursoMaisVelho = ""
+idadeMaisVelha = 0
+qtdAlunos50Sem = 0
+
+for cont in range (50):
+  #sorteio
+  idade = random.randint(18,60)
+  curso = random.choice(['Eng. Civil','Eng. Produção','Eng. Mecanica','Eng. Dados'])
+  semestre = random.randint(1,10)
+  somaIdades += idade
+
+  if idade > idadeMaisVelha:
+    idadeMaisVelha = idade
+    cursoMaisVelho = curso
+  if semestre == 5:
+    qtdAlunos50Sem += 1
+
+mediaIdades = somaIdades // 50
+print(f'Media de idade: {mediaIdades}')
+print(f'Curso do aluno mais velho: ({idadeMaisVelha} anos):{cursoMaisVelho}')
+print(f'Total de alunos no 5º Semestre: {qtdAlunos50Sem}')
