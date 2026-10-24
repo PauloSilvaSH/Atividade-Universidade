@@ -1,3 +1,5 @@
+> **Portfólio:** [Índice geral dos projetos](https://github.com/PauloSilvaSH/Project_finance_pucrs/blob/main/PORTFOLIO.md) · [README de perfil pronto para publicação](https://github.com/PauloSilvaSH/Project_finance_pucrs/blob/main/README_PROFILE.md)
+
 # Atividades de Programação e Análise de Dados — Universidade
 
 Repositório com exercícios acadêmicos em Python e análise de dados meteorológicos. Os arquivos identificados incluem um script interativo de temperaturas, um exercício com dados simulados de alunos e um notebook que consulta registros meteorológicos a partir de CSV.
